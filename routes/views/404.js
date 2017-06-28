@@ -1,4 +1,4 @@
-//about 
+//404 
 var keystone = require('keystone');
 
 exports = module.exports = function(req, res) {
@@ -8,9 +8,9 @@ exports = module.exports = function(req, res) {
 	
 	// locals.section is used to set the currently selected
 	// item in the header navigation.
-	locals.section = 'about';
+	locals.section = '404';
 	
 	// Render the view
-	view.render('about');
+	view.render('404');
 	
 };
